@@ -29,6 +29,7 @@ const addNote = (text = "") => {
 	const note = document.createElement("div");
 	note.classList.add("note");
 	note.innerHTML = `  <div class="tool">
+			    <i class="fa-solid fa-plus" onclick="addNote()"></i>
                             <i class="fa-sharp fa-solid fa-floppy-disk save "></i>
                             <i class="fa-sharp fa-solid fa-trash trash "></i>
                         </div>
